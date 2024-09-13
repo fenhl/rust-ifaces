@@ -15,5 +15,5 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-nix = "0.8"
+nix = { version = "0.29", features = ["net", "socket"] }
 libc = "0.2"
